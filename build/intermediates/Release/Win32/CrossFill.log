@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (C:\Users\jak_h\Desktop\MyFolder\conway\build\intermediates\Release\Win32\) contains files shared from another project (Raycasting.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GameLogicInterface.cpp
+C:\Users\jak_h\Desktop\MyFolder\conway\deps\yse\include\utils\vector.hpp(30,31): warning C4244: 'return': conversion from 'double' to 'Flt', possible loss of data
+C:\Users\jak_h\Desktop\MyFolder\conway\deps\yse\include\utils\vector.hpp(99,16): warning C4244: 'return': conversion from 'double' to 'Flt', possible loss of data
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(27,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(47,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(65,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(66,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(88,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(89,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(93,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(153,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(158,20): warning C4018: '<': signed/unsigned mismatch
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  7 of 1154 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+  CrossFill.vcxproj -> C:\Users\jak_h\Desktop\MyFolder\conway\build\Release\Win32\CrossFill.exe
