@@ -1,23 +1,17 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (C:\Users\jak_h\Desktop\MyFolder\conway\build\intermediates\Release\Win32\) contains files shared from another project (CrossFill.vcxproj, Raycasting.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Window.cpp
-C:\Users\jak_h\Desktop\MyFolder\conway\src\engine\Window.cpp(217,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (C:\Users\jak_h\Desktop\C++ Projects\conway\build\intermediates\Release\Win32\) contains files shared from another project (CrossFill.vcxproj, Raycasting.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   GameLogicInterface.cpp
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(26,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(46,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(64,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(65,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(87,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(88,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(92,26): warning C4018: '<': signed/unsigned mismatch
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(152,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\jak_h\Desktop\MyFolder\conway\src\game\GameLogicInterface.cpp(157,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(32,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(72,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(73,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(104,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(105,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  2 of 841 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  1 of 1040 functions (<0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\jak_h\Desktop\MyFolder\conway\build\Release\Win32\vc120.pdb'; linking object as if no debug info
-  GameOfLife.vcxproj -> C:\Users\jak_h\Desktop\MyFolder\conway\build\Release\Win32\GameOfLife.exe
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+  GameOfLife.vcxproj -> C:\Users\jak_h\Desktop\C++ Projects\conway\build\Release\Win32\GameOfLife.exe

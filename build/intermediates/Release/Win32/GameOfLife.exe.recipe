@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\jak_h\Desktop\MyFolder\conway\build\Release\Win32\GameOfLife.exe</FullPath>
+      <FullPath>C:\Users\jak_h\Desktop\C++ Projects\conway\build\Release\Win32\GameOfLife.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

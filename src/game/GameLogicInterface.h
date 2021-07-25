@@ -15,8 +15,27 @@
 #include <memory>
 #include <thread>
 
+#include <array>
+#include <unordered_set>
+#include <algorithm>
+
 #define tilesWide 150
 #define tilesTall 100
+
+namespace std {
+	template <> struct std::hash<std::pair<int, int>> {
+		inline size_t operator()(const std::pair<int, int>& i) const {
+			int a = i.first;
+			int b = i.second;
+			int A = a >= 0 ? 2 * a : -2 * a - 1;
+			int B = b >= 0 ? 2 * b : -2 * b - 1;
+			int C = (A >= B ? A * A + A + B : A + B * B) / 2;
+			a < 0 && b < 0 || a >= 0 && b >= 0 ? C : -C - 1;
+			
+			return C;
+		}
+	};
+}
 
 namespace GameLogicInterface {
 	void init();
@@ -28,7 +47,7 @@ namespace GameLogicInterface {
 	void keyCallback(int key, int scancode, int action, int mods);
 	void characterCallback(unsigned int codepoint);
 
-	int getTile(int current, int deltaX, int deltaY, std::array<bool, tilesWide* tilesTall>* tiles);
-	int countNeighbours(int index, std::array<bool, tilesWide* tilesTall>* tiles);
+	bool getTile(int currentX, int currentY, int deltaX, int deltaY, std::unordered_set<std::pair<int, int>>& tiles);
+	int countNeighbours(int x, int y, std::unordered_set<std::pair<int, int>>& cells);
 	void applyRules();
 };

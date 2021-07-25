@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (C:\Users\jak_h\Desktop\C++ Projects\conway\build\intermediates\Debug\Win32\) contains files shared from another project (Raycasting.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GameLogicInterface.cpp
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(27,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(56,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(57,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(79,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jak_h\Desktop\C++ Projects\conway\src\game\GameLogicInterface.cpp(80,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  GameOfLife.vcxproj -> C:\Users\jak_h\Desktop\C++ Projects\conway\build\Debug\Win32\GameOfLife.exe
